@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'roboto';
+}
+
+body{
+    background-image: url(./images/8ea296e70fa0bbaa8664ced867a834f9.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+}
+
+.add-task-container{
+    background: white;
+    padding: 25px 35px;
+    justify-content: space-around;
+    border-radius: 5px;
+    box-shadow: 0 0 5px 0;
+}
+
+.input-task{
+    padding: 10px;
+    width: 250px;
+    border: 1px solid black;
+    border-radius: 2px;
+    margin-right: 10px;
+}
+
+.input-task-btn{
+    background: white;
+    color: green;
+    padding: 10px 20px;
+    border-radius: 2px;
+    border: 1px solid green;
+}
+.input-task-btn:hover{
+    cursor: pointer;
+    transition: .3s;
+    background: green;
+    color: white;
+}
+
+.task-container{
+    margin-top: 40px;
+    width: 390px;
+    height: 320px;
+    overflow-y: scroll;
+    padding: 20px;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px 0;
+}
+
+h2{
+    border-bottom: 1px solid black;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.task{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.3rem;
+    margin-bottom: 5px;
+}
+
+.task button{
+    padding: 10px;
+    background: white;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.saved-task{
+    width: 250px;
+    overflow:hidden;
+}
+
+.check-btn{
+    color: orange;
+    border: 1px solid orange;
+}
+
+.check-btn:hover{
+    background: orange;
+    color: white;
+    transition: .3s;
+}
+
+
+.delete-btn{
+    color: red;
+    border: 1px solid red;
+}
+
+.delete-btn:hover{
+    background: red;
+    color: white;
+    transition: .3s;
+}
